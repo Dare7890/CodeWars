@@ -4,7 +4,7 @@ const number = 7;
 
 var countBits = function(n) {
     const desiredValue = '1';
-    let binaryNumber = number.toString(2);
+    let binaryNumber = n.toString(2);
 
     return Array.from(binaryNumber)
                 .filter(n => n === desiredValue)
